@@ -3,8 +3,7 @@ local SelectScene = class("SelectScene", function ( ) return display.newScene("S
 function SelectScene:ctor()
 
 	self:init()
-	----
-	-- body
+
 end
  
  function SelectScene:init()
