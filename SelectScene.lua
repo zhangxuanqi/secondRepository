@@ -17,6 +17,12 @@ end
 			SetLayer.isPlayMusic = false
 		end
 	end)
+
+
+
+   --lkkkkkkkkkkkkkkkkkkkkkkkk
+
+
 	
 	--背景
 	-- local bg = display.newSprite("bg1.png")
