@@ -19,14 +19,14 @@ end
 	end)
 	
 	--背景
-	local bg = display.newSprite("bg1.png")
-	bg:setPosition(cc.p(display.cx, display.cy))
-	local scaleX = display.width/bg:getContentSize().width
-	local scaleY = display.height/bg:getContentSize().height
-	bg:setScaleX(scaleX)
-	bg:setScaleY(scaleY)
-	bg:setPosition(cc.p(display.cx, display.cy))
-	self:addChild(bg)
+	-- local bg = display.newSprite("bg1.png")
+	-- bg:setPosition(cc.p(display.cx, display.cy))
+	-- local scaleX = display.width/bg:getContentSize().width
+	-- local scaleY = display.height/bg:getContentSize().height
+	-- bg:setScaleX(scaleX)
+	-- bg:setScaleY(scaleY)
+	-- bg:setPosition(cc.p(display.cx, display.cy))
+	-- self:addChild(bg)
 
 	--返回按钮
 	local backbtn = cc.ui.UIPushButton.new({normal = "backarrow.png"}, {scale9 = true})
